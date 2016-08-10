@@ -1,0 +1,95 @@
+*{
+	font-family: "Open Sans"
+}
+
+.gray{
+	background-color: #808080;
+	height: 500px;
+	color: #ffffff;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+nav{
+	float: right;
+}
+
+a{
+	list-style: none;
+	text-decoration: none;
+	color:#B2B4B7;
+	margin-left: 10px;
+}
+
+p{
+	padding-top: 30px;
+}
+
+.formulario{
+	width:200px; 
+	height:170px;
+	border-radius: 5%;
+	padding:10px 10px;
+	background-color: #9A9A9A; 
+	margin-top:51px; 
+	margin-right:65px;
+	float: right;
+}
+
+button{
+	color:#ffffff;
+	background-color: #3EB0F7;
+	border:none;
+	width: 92%;
+	height: 15%;
+}
+
+input{
+	height:10% ;
+	width:90%;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+h5{
+	padding-bottom:5px;
+}
+
+
+span{
+	color :blue;
+}
+
+.logo{
+	width:218px ;
+	height:51px;
+}
+
+a:hover{
+	color:orange;
+}
+
+/*responsive css*/
+
+@media screen and (max-width:824px) {
+	.responsive{
+		width: 100%
+	}
+	.gray{
+		height: 720px;
+	}
+	.formulario{
+		width: 100%;
+	}
+	.col-6{
+		float: right;
+		margin:none;
+	}
+	nav{
+		margin-top: -50px;
+	}
+}
